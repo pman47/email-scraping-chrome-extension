@@ -14,8 +14,8 @@ Text Dark : #666666
 }
 
 body {
-  min-width: 300px;
-  max-width: 300px;
+  min-width: 350px;
+  max-width: 400px;
   background-color: #222222;
   color: #fffdf8;
 }
@@ -41,7 +41,7 @@ body {
 }
 
 .button {
-  margin: 100px 0;
+  margin: 30px 0;
   font-size: 20px;
   padding: 20px 50px;
   border-radius: 10px;
@@ -56,4 +56,24 @@ body {
 
 .button:hover {
   background-color: #8675e2;
+}
+
+.emailContainer {
+  background-color: #202020;
+  color: #8675e2;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px;
+  border: 1px solid #666666;
+  border-radius: 10px;
+}
+
+#emailList {
+  padding: 0 10px;
+}
+
+#emailList li {
+  word-break: break-all;
 }
