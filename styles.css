@@ -1,0 +1,59 @@
+/* 
+Button Background : #ab9ff2,
+Button Text : #222222
+Body Background : #222222
+Text Light : #fffdf8
+Text Dark : #666666
+*/
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  min-width: 300px;
+  max-width: 300px;
+  background-color: #222222;
+  color: #fffdf8;
+}
+
+.header {
+  width: 100%;
+  border-bottom: 1px solid #666666;
+}
+
+#header-text {
+  margin: 15px;
+  color: #666666;
+  font-size: 25px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.button-container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.button {
+  margin: 100px 0;
+  font-size: 20px;
+  padding: 20px 50px;
+  border-radius: 10px;
+  outline: none;
+  border: none;
+  background-color: #ab9ff2;
+  color: #222222;
+  font-weight: bold;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #8675e2;
+}
