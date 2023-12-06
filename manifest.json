@@ -1,0 +1,9 @@
+{
+  "name": "Email Scraper",
+  "description": "Scrap email for any web page.",
+  "version": "1.0",
+  "manifest_version": 3,
+  "action": {
+    "default_popup": "popup.html"
+  }
+}
